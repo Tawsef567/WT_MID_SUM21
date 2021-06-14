@@ -1,7 +1,13 @@
 <?php
+
 $backColor="green";$fontColor="red"; $imageWidth="80px"; $imageHight="80px";
+
 ?>
-<img src="AIUBLOGO.png" width="300px" height="300px" />
-<h2>American International University-<span style="background-color:yellow:color:cyan">
-Bangladesh</h2>
+
+<span> <img src="AIUBLOGO.png" width="<?php echo $imageWidth; ?>" height="<?php echo $imageHight; ?>" /></span>
+
+<span>American International University-<span style="background-color:<?php echo $backColor; ?>;color:<?php echo $fontColor; ?>;">
+
+Bangladesh</span>
+
 </span>
