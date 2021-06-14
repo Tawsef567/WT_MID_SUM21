@@ -1,10 +1,10 @@
 <?php
 
-$backColor="green";$fontColor="red"; $imageWidth="80px"; $imageHight="80px";
+$backColor="green";$fontColor="red"; $imageWidth="100px"; $imageHight="100px";
 
 ?>
 
-<span> <img src="AIUBLOGO.png" width="<?php echo $imageWidth; ?>" height="<?php echo $imageHight; ?>" /></span>
+<img src="AIUBLOGO.png" width="<?php echo $imageWidth; ?>" height="<?php echo $imageHight; ?>" />
 
 <span>American International University-<span style="background-color:<?php echo $backColor; ?>;color:<?php echo $fontColor; ?>;">
 
