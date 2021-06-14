@@ -1,11 +1,20 @@
 <?php
-$name = "null";
+$name = "mithu";
 
-if($name == "raju" && $name == "mina" && $name = "mithu")
+if($name == "raju")
+{
+    echo "Hello";
+}
+
+elseif ($name == "mina") 
+{
+    echo "Hello";
+}
+elseif($name == "mithu") 
     {
         echo "Hello";
     }
-    else
+else
     {
         echo "You are not recognized";
     }
